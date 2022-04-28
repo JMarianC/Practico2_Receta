@@ -1,0 +1,41 @@
+body { background-image: url(imagenes/wood.jpg);
+      background-attachment: fixed;}
+
+#logo {position: absolute; z-index: 1}
+
+#titulo { background: rgba(0,0,0, 0.65); color: rgba(236,239,240, 0.80); font-family: Candara;
+  font-size: 30pt; font-weight: bold; text-align: center; text-decoration: underline; z-index: 0
+      }
+
+.titulo2 { background: rgba(0,0,0, 0.4); color: #FFFFFF; font-family: Candara;
+  font-size: 26pt; font-weight: bold; text-align: right;}
+
+ .foto {float: right; margin-left: 20px;}
+
+ .texto { color: #FFFFFF; font-family: Century Gothic;
+   font-size: 16pt; font-weight: bold; text-indent: 2em; text-align: justify;}
+
+  .video { margin-right: 40px; float: left;}
+
+  .ingredientes { width:400px; background: rgba(0,0,0, 0.35); color: #FFFFFF; font-family: Candara;
+    font-size: 22pt; font-weight: bold; margin-left: 800px; text-decoration: underline; text-align: center}
+
+.box {width:300px; background: rgba(0,0,0, 0.2); margin-left: 850px;
+      padding-left: 20px; padding-top: 5px; padding-bottom: 5px}
+
+  .lista { color: #FFFFFF; font-family: Century Gothic;
+    font-size: 14pt; font-weight: bold; text-align: justify;
+     list-style-image: url(imagenes/flechita.png); line-height: 150%;}
+
+ .pasos { width: 400px ;background: rgba(0,0,0, 0.35); color: #FFFFFF; font-family: Candara;
+   font-size: 26pt; font-weight: bold; text-align: center; text-decoration: underline; margin: 0 auto;}
+
+  .pasos_1 { width: auto; height: auto; background: rgba(0,0,0, 0.2); color: #FFFFFF; font-family: Century Gothic;
+    font-size: 16pt; font-weight: bold; text-align: justify;
+     margin-left: 35px; margin-right: 35px; padding-right: 35px; padding-left: 20px; padding-top: 10px; padding-bottom: 10px}
+
+ .enlace { width:400px; background: rgba(196,194,194, 0.5); color: #FFFFFF; font-family: Candara;
+   font-size: 22pt; font-weight: bold; text-align: center; border-color: #606060;
+    border-style:groove; border-width: thick; margin: 0 auto;}
+
+ .mapa {text-align: center;}
